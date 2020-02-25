@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "spareparts": "sparepartsmonitoring",
+    "default": "sparepartsmonitoring"
+  }
+}

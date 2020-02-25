@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import TambahBarang from './views/TambahBarang.vue'
+import OrderBarang from './views/OrderBarang.vue'
+import OrderHistory from './views/OrderHistory.vue'
 
 Vue.use(Router)
 
@@ -12,6 +15,21 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/tambah',
+      name: 'tambahBarang',
+      component: TambahBarang
+    },
+    {
+      path: '/order',
+      name: 'orderBarang',
+      component: OrderBarang
+    },
+    {
+      path: '/orderHistory',
+      name: 'orderHistory',
+      component: OrderHistory
     },
     {
       path: '/about',
